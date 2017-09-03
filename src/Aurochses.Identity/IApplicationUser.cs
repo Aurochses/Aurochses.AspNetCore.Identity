@@ -14,6 +14,18 @@ namespace Aurochses.Identity
         Guid Id { get; set; }
 
         /// <summary>
+        /// User Name
+        /// </summary>
+        /// <value>The user name.</value>
+        string UserName { get; set; }
+
+        /// <summary>
+        /// Email
+        /// </summary>
+        /// <value>The email.</value>
+        string Email { get; set; }
+
+        /// <summary>
         /// First Name
         /// </summary>
         /// <value>The first name.</value>
