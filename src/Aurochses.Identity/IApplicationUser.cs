@@ -26,6 +26,12 @@ namespace Aurochses.Identity
         string Email { get; set; }
 
         /// <summary>
+        /// Phone Number
+        /// </summary>
+        /// <value>The phone number.</value>
+        string PhoneNumber { get; set; }
+
+        /// <summary>
         /// First Name
         /// </summary>
         /// <value>The first name.</value>

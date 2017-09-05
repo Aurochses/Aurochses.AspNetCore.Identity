@@ -102,6 +102,35 @@ namespace Aurochses.Identity.Tests
         }
 
         [Fact]
+        public void PhoneNumber_Get_Success()
+        {
+            // Arrange
+            const string value = "TestPhoneNumber";
+
+            _mockApplicationUser.SetupGet(m => m.PhoneNumber).Returns(value);
+
+            // Act & Assert
+            Assert.Equal(value, _mockApplicationUser.Object.PhoneNumber);
+        }
+
+        [Fact]
+        public void PhoneNumber_Set_Success()
+        {
+            // Arrange
+            var result = "PhoneNumber";
+
+            const string value = "TestPhoneNumber";
+
+            _mockApplicationUser.SetupSet(m => m.PhoneNumber = It.IsAny<string>()).Callback((string val) => { result = val; });
+
+            // Act
+            _mockApplicationUser.Object.PhoneNumber = value;
+
+            // Assert
+            Assert.Equal(value, result);
+        }
+
+        [Fact]
         public void FirstName_Get_Success()
         {
             // Arrange
