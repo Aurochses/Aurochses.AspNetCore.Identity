@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Aurochses.Identity.Tests.Fakes
+namespace Aurochses.AspNetCore.Identity.Tests.Fakes
 {
     public class FakeApplicationUser : IApplicationUser
     {

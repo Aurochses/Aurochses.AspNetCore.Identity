@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Aurochses.Identity
+namespace Aurochses.AspNetCore.Identity
 {
     /// <summary>
     /// Interface of email service

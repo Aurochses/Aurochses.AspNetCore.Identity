@@ -1,4 +1,4 @@
-﻿namespace Aurochses.Identity
+﻿namespace Aurochses.AspNetCore.Identity
 {
     /// <summary>
     /// Class SendResult.

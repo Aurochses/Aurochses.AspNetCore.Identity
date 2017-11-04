@@ -2,7 +2,7 @@
 using Moq;
 using Xunit;
 
-namespace Aurochses.Identity.Tests
+namespace Aurochses.AspNetCore.Identity.Tests
 {
     // ReSharper disable once InconsistentNaming
     public class IApplicationUserTests
