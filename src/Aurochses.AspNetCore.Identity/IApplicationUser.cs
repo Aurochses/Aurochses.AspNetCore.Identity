@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Aurochses.Identity
+namespace Aurochses.AspNetCore.Identity
 {
     /// <summary>
     /// User

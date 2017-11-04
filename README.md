@@ -1,11 +1,12 @@
-# Aurochses Identity
+# Aurochses AspNetCore Identity
 
-Aurochses Identity is a library for Identity.
+Aurochses AspNetCore Identity is a library for AspNetCore Identity.
 
 ## NuGet
 
-[![NuGet](https://img.shields.io/nuget/v/Aurochses.Identity.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Identity)
-[![NuGet](https://img.shields.io/nuget/dt/Aurochses.Identity.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.Identity)
+[![NuGet](https://img.shields.io/nuget/v/Aurochses.AspNetCore.Identity.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.AspNetCore.Identity)
+[![NuGet](https://img.shields.io/nuget/dt/Aurochses.AspNetCore.Identity.svg?style=flat-square)](https://www.nuget.org/packages/Aurochses.AspNetCore.Identity)
+[![NuGet Status](http://nugetstatus.com/Aurochses.AspNetCore.Identity.png)](http://nugetstatus.com/packages/Aurochses.AspNetCore.Identity)
 
 ## Builds
 

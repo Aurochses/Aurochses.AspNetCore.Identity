@@ -1,7 +1,7 @@
-﻿using Aurochses.Identity.Tests.Fakes;
+﻿using Aurochses.AspNetCore.Identity.Tests.Fakes;
 using Xunit;
 
-namespace Aurochses.Identity.Tests
+namespace Aurochses.AspNetCore.Identity.Tests
 {
     public class SendResultTests
     {
