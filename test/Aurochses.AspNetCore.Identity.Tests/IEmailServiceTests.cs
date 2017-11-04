@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using Aurochses.Identity.Tests.Fakes;
+using Aurochses.AspNetCore.Identity.Tests.Fakes;
 using Moq;
 using Xunit;
 
-namespace Aurochses.Identity.Tests
+namespace Aurochses.AspNetCore.Identity.Tests
 {
     // ReSharper disable once InconsistentNaming
     public class IEmailServiceTests
