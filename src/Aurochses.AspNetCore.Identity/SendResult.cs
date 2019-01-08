@@ -30,7 +30,7 @@
         public static SendResult Success { get; } = new SendResult { Succeeded = true };
 
         /// <summary>
-        /// Faileds the specified response.
+        /// Failed the specified response.
         /// </summary>
         /// <param name="response">The response.</param>
         /// <returns></returns>
