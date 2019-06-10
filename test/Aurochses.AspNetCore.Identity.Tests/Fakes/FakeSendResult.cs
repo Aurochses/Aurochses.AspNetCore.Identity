@@ -1,5 +1,8 @@
-﻿namespace Aurochses.AspNetCore.Identity.Tests.Fakes
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace Aurochses.AspNetCore.Identity.Tests.Fakes
 {
+    [ExcludeFromCodeCoverage]
     public class FakeSendResult : SendResult
     {
         public void SetSucceeded(bool value)
